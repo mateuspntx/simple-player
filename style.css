@@ -1,0 +1,71 @@
+body {
+  font-family: Arial;
+  margin: auto;
+  width: 26%;
+  background: CadetBlue;
+  margin-top: 80px;
+  color: white;
+  text-shadow: 0px 0px 6px black;
+}
+.br-player {
+  position: absolute;
+  width: 400px;
+  text-shadow: 0px 0px 6px black;
+  box-shadow: 0px 0px 50px -5px black;
+}
+.br-player > .art {
+  padding: 10px;
+  height: 100px;
+  color: white;
+  padding-left: 40px;
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 50%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(50%,rgba(0,0,0,0))); 
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 50%);
+    background: -o-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 50%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 50%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 50%); 
+}
+.br-player .art > h3 {
+  color: Gainsboro;
+}
+.br-player .art > h2 {
+  padding-bottom: -20px;
+}
+.br-player .art > h2, h3 {
+  margin: 0 auto;
+}
+.br-player > .controls {
+  color: white;
+  bottom: 0px;
+  text-align: center;
+  letter-spacing: 5px;
+  padding-bottom: 10px;
+  background: rgba(0,0,0,.6);
+  padding-top: 10px;
+}
+.br-player > .controls > .fa {
+  cursor: pointer;
+}
+.br-player > .controls > .current-time {
+  position: absolute;
+  left: 15px;
+  letter-spacing: 0px;
+  bottom: -5px;
+  padding-bottom: 0px;
+}
+.br-player > .controls > .duration-time {
+  position: absolute;
+  right: 15px;
+  letter-spacing: 0px;
+  bottom: -5px;
+  padding-bottom: 0px;
+}
+.br-player > .bar {
+  display: block;
+  background: DeepSkyBlue;
+  height: 3px;
+  border-radius: 0px 10px 10px 0px;
+  width: 1%;
+  box-shadow: 0px 0px 12px DeepSkyBlue;
+  z-index: 100;
+}
